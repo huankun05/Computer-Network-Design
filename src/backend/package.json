@@ -1,0 +1,18 @@
+{
+  "name": "network-course-backend",
+  "version": "1.0.0",
+  "description": "计算机网络知识体系交互式展示系统 - 后端服务",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "db:init": "node db/init.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.21.0",
+    "multer": "^2.1.1"
+  }
+}

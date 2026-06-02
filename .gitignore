@@ -1,0 +1,50 @@
+# 环境变量（含 API Key）
+.env
+.env.local
+.env.*.local
+
+# 示例环境变量（单独提交）
+!example.env
+
+# 依赖
+node_modules/
+
+# 数据库
+*.db
+*.db-journal
+
+# 构建输出
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# CodeBuddy（IDE 项目数据，不提交）
+.codebuddy/
+
+# 日志
+*.log
+npm-debug.log*
+
+# 归档 & PDF
+*.zip
+*.7z
+*.tar.gz
+*.pdf
+
+# Word 文档（课程资料，不提交）
+*.docx
+
+# 生成脚本
+generate_doc.py
+
+# 测试
+coverage/
+
+# OS
+.DS_Store
+Thumbs.db

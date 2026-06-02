@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "vite build && npx gh-pages -d dist -r https://github.com/huankun05/Computer-Network-Design.git -b gh-pages"
   },
   "dependencies": {
     "@ant-design/icons": "^6.2.5",

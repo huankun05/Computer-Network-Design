@@ -1,4 +1,4 @@
-import { createBrowserRouter } from 'react-router-dom'
+import { createHashRouter } from 'react-router-dom'
 import Layout from '../components/Layout'
 import Home from '../pages/Home'
 import DnsVisual from '../pages/DnsVisual'
@@ -10,7 +10,7 @@ import AiChat from '../pages/AiChat'
 import PacketStructure from '../pages/PacketStructure'
 import FaultSimulation from '../pages/FaultSimulation'
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     element: <Layout />,
     children: [

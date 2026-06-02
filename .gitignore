@@ -39,8 +39,9 @@ npm-debug.log*
 # Word 文档（课程资料，不提交）
 *.docx
 
-# 生成脚本
+# 生成脚本 & 项目规则
 generate_doc.py
+CLAUDE.md
 
 # 测试
 coverage/
